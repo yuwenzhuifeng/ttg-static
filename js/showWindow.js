@@ -14,7 +14,7 @@ $.showWindow = function(options) {
 				</div>\
 				<a href="JavaScript:;" class="prev"></a>\
 				<a href="JavaScript:;" class="next"></a>\
-				<a href="JavaScript:;" class="link">立即预定</a>\
+				<div class="link_box"><a href="JavaScript:;" class="link">立即预定</a></div>\
 			</div>'
 
 

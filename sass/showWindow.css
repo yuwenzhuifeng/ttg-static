@@ -14,7 +14,8 @@
 .showWindow{
   display: none;
   width: r(892);
-  min-height: r(542);
+  padding-bottom: r(68);
+  min-height: r(474);
   background: #fff;
   position: fixed;
   /*position: absolute;*/
@@ -40,6 +41,7 @@
   }
   img{
     width: r(600);
+    height: r(300);
     margin: r(76) auto 0 auto;
     display: block;
   }
@@ -49,21 +51,21 @@
   }
   h6{
     margin: r(10) 0 0;
-    line-height: r(32);
-    text-align: center;
-    font-size: r(16);
+    line-height: r(24);
+    font-size: r(14);
     color: #000;
   }
   p{
-    line-height: r(20);
+    line-height: r(18);
     font-size: r(12);
     color: #797979;
   }
+  .link_box{
+    position: absolute;
+    right: r(146);
+    bottom: r(44)
+  }
   .link{
-    width: r(90);
-    text-align: center;
-    display: block;
-    margin: r(20) r(150) r(40) auto;
     font-size: r(16);
     font-weight: bold;
     line-height: r(24);
@@ -73,7 +75,7 @@
     width: r(60);
     height: r(60);
     position: absolute;
-    left: 3%;
+    left: 4%;
     top: 50%;
     color: #797979;
     transform: translate(0, -50%);
@@ -91,7 +93,7 @@
     width: r(60);
     height: r(60);
     position: absolute;
-    right: 3%;
+    right: 4%;
     top: 50%;
     color: #797979;
     z-index: 10;

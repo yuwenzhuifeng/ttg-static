@@ -23,9 +23,9 @@ $UIwidth: 1000;
 	    -moz-transition: top 0.3s;
 	    -o-transition: top 0.3s;
 	    transition: top 0.3s;
-	    &:hover{
+/*	    &:hover{
 			top: r(-48);
-	    }
+	    }*/
 	}
 	img{
 		display: block;

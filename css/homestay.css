@@ -377,7 +377,8 @@ h1, h2, h3, h4, h5, h6 {
 .showWindow {
   display: none;
   width: 8.92rem;
-  min-height: 5.42rem;
+  padding-bottom: 0.68rem;
+  min-height: 4.74rem;
   background: #fff;
   position: fixed;
   /*position: absolute;*/
@@ -401,6 +402,7 @@ h1, h2, h3, h4, h5, h6 {
       border-radius: 50%; }
   .showWindow img {
     width: 6rem;
+    height: 3rem;
     margin: 0.76rem auto 0 auto;
     display: block; }
   .showWindow .showWindowContent {
@@ -408,19 +410,18 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto; }
   .showWindow h6 {
     margin: 0.1rem 0 0;
-    line-height: 0.32rem;
-    text-align: center;
-    font-size: 0.16rem;
+    line-height: 0.24rem;
+    font-size: 0.14rem;
     color: #000; }
   .showWindow p {
-    line-height: 0.2rem;
+    line-height: 0.18rem;
     font-size: 0.12rem;
     color: #797979; }
+  .showWindow .link_box {
+    position: absolute;
+    right: 1.46rem;
+    bottom: 0.44rem; }
   .showWindow .link {
-    width: 0.9rem;
-    text-align: center;
-    display: block;
-    margin: 0.2rem 1.5rem 0.4rem auto;
     font-size: 0.16rem;
     font-weight: bold;
     line-height: 0.24rem;
@@ -429,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 0.6rem;
     height: 0.6rem;
     position: absolute;
-    left: 3%;
+    left: 4%;
     top: 50%;
     color: #797979;
     transform: translate(0, -50%);
@@ -445,7 +446,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 0.6rem;
     height: 0.6rem;
     position: absolute;
-    right: 3%;
+    right: 4%;
     top: 50%;
     color: #797979;
     z-index: 10;
