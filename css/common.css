@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@media (max-width: 319px) {
+  html {
+    font-size: 32px; } }
+
+@media (min-width: 320px) and (max-width: 374px) {
+  html {
+    font-size: 32px; } }
+
+@media (min-width: 375px) and (max-width: 413px) {
+  html {
+    font-size: 37.5px; } }
+
+@media (min-width: 414px) and (max-width: 511px) {
+  html {
+    font-size: 41.4px; } }
+
+@media (min-width: 512px) and (max-width: 767px) {
+  html {
+    font-size: 51.2px; } }
+
+@media (min-width: 768px) and (max-width: 999px) {
+  html {
+    font-size: 76.8px; } }
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 100px; } }
+
+.border-1px {
+  position: relative; }
+  .border-1px:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    pointer-events: none; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .border-1px:after {
+      right: -100%;
+      bottom: -100%;
+      transform: scale(0.5);
+      -moz-transform: scale(0.5);
+      -webkit-transform: scale(0.5); } }
+  @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    .border-1px:after {
+      right: -200%;
+      bottom: -200%;
+      transform: scale(0.3333);
+      -moz-transform: scale(0.3333);
+      -webkit-transform: scale(0.3333); } }
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, form, fieldset, legend, p, table, th, td, iframe, input, figure {
+  margin: 0;
+  padding: 0; }
+
+header, section, footer {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed; }
+
+img {
+  border: 0; }
+
+li {
+  list-style: none; }
+
+em, i {
+  font-style: normal; }
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; }
+
+a:focus {
+  outline: 0; }
+
+textarea {
+  resize: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none; }
+
+input[type="text"], input[type="button"], input[type="submit"], input[type="tel"] {
+  -webkit-appearance: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 0; }
+
+input, textarea {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-modify: read-write-plaintext-only; }
+
+body {
+  font: 14px/20px "Microsoft YaHei","Hiragino Sans GB","stheitisclight","sans-serif";
+  min-width: 320px;
+  word-wrap: break-word;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden; }
+
+.container {
+  height: 100%; }
+
+header, nav, footer, article, section, aside {
+  display: block; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+/*初始化样式end*/

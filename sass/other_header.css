@@ -1,0 +1,29 @@
+@charset "utf-8";
+.header{
+	height: r(137);
+}
+.logo_cover{
+	width: r(116);
+	height: r(88);
+	margin: 0 auto;
+	overflow: hidden;
+    -webkit-transition: height 0.3s, margin-top 0.3s;
+    -moz-transition: height 0.3s, margin-top 0.3s;
+    -o-transition: height 0.3s, margin-top 0.3s;
+    transition: height 0.3s, margin-top 0.3s;
+    &:hover{
+    	height: r(176);
+    	margin-top: r(-88);
+    };
+}
+.logo{
+	height: r(210);
+	overflow: hidden;
+	img{
+		width: r(116);
+		height: r(88);
+	}
+	h3{
+		font-size: r(18);
+	}
+}

@@ -1,0 +1,109 @@
+@charset 'UTF-8';
+/*showWindow start*/
+.showWindowCover{
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0.9;
+  z-index: 1;
+}
+.showWindow{
+  display: none;
+  width: r(892);
+  min-height: r(542);
+  background: #fff;
+  position: fixed;
+  /*position: absolute;*/
+  left: 50%;
+  top: 50%;
+  transform: translate( -50%, -50% );
+  border: r(4) solid #000;
+  z-index: 2;
+  .close{
+    position: absolute;
+    top: r(20);
+    right: r(20);
+    width: r(40);
+    height: r(40);
+    background-repeat: no-repeat;
+    background-image: url(../image/showWindow/ico_close.png);
+    background-size: r(20) r(20);
+    background-position: center center;
+    &:hover{
+      background-color: #eee;
+      border-radius: 50%;
+    }
+  }
+  img{
+    width: r(600);
+    margin: r(76) auto 0 auto;
+    display: block;
+  }
+  .showWindowContent{
+    width: r(600);
+    margin: 0 auto;
+  }
+  h6{
+    margin: r(10) 0 0;
+    line-height: r(32);
+    text-align: center;
+    font-size: r(16);
+    color: #000;
+  }
+  p{
+    line-height: r(20);
+    font-size: r(12);
+    color: #797979;
+  }
+  .link{
+    width: r(90);
+    text-align: center;
+    display: block;
+    margin: r(20) r(150) r(40) auto;
+    font-size: r(16);
+    font-weight: bold;
+    line-height: r(24);
+    color: #000;
+  }
+  .prev{
+    width: r(60);
+    height: r(60);
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    color: #797979;
+    transform: translate(0, -50%);
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-image: url(../image/showWindow/ico_prev.png);
+    background-size: r(18) r(31);
+    background-position: center center;
+    &:hover{
+      background-color: #eee;
+      border-radius: 50%;
+    }
+  }
+  .next{
+    width: r(60);
+    height: r(60);
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    color: #797979;
+    z-index: 10;
+    transform: translate(0, -50%);
+    background-repeat: no-repeat;
+    background-image: url(../image/showWindow/ico_next.png);
+    background-size: r(18) r(31);
+    background-position: center center;
+    &:hover{
+      background-color: #eee;
+      border-radius: 50%;
+    }
+  }
+}
+/*showWindow end*/

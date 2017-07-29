@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0;
+	padding:0;
+	font-size:32px;
+	line-height:48px;
+	font-family:微软雅黑;
+}
+@media screen and (max-width:1440px){
+.w1440{
+	display:block;
+}
+.w1280, .w1024, .w800, .w600{
+	display:none;
+}
+}
+@media screen and (max-width:1280px){
+.w1280{
+	display:block;
+	color:#ccc;
+	width:600px;
+	height:200px;
+	background:#f00;
+}
+.w1440, .w1024, .w800, .w600{
+	display:none;
+}
+}
+@media screen and (max-width:1024px) {
+.w1024 {
+	display:block;
+	color:#060;
+}
+.w1440, .w1280, .w800, .w600{
+	display:none;
+}
+}
+@media screen and (max-width:800px) {
+.w800 {
+	display:block;
+	color:#f00;
+}
+.w1440, .w1280, .w1024, .w600{
+	display:none;
+}
+}
+
+@media screen and (max-width:600px) {
+.w600 {
+	display:block;
+	color:#00f;
+}
+.w1440, .w1280, .w1024, .w800{
+	display:none;
+}
+}

@@ -1,0 +1,118 @@
+@charset "utf-8";
+@import "common";
+$UIwidth: 1000;
+.main{
+	width: r(1000);
+	margin: 0 auto;
+}
+.header{
+	height: r(217);
+	padding: r(35) 0 0 0;
+	h4{
+		float: left;
+		line-height: r(22);
+		color: #000;
+		font-size: r(16);
+	}
+	.ico{
+		width: r(102);
+		float: right;
+	}
+	a{
+		width: r(24);
+		height: r(24);
+		margin: 0 r(5);
+		float: left;
+		background-repeat: no-repeat;
+		background-image: url(../image/ico_bind.png);
+		background-size: r(48) r(160);
+	}
+	.douban{
+		background-position: 0 0;
+		&:hover{
+			background-position: r(-24) 0;
+		}
+	}
+	.weibo{
+		background-position: 0 r(-24);
+		&:hover{
+			background-position: r(-24) r(-24);
+		}
+	}
+	.weixin{
+		background-position: 0 r(-48);
+		&:hover{
+			background-position: r(-24) r(-48);
+		}
+	}
+}
+.logo_cover{
+	width: r(140);
+	height: r(108);
+	margin: 0 auto;
+	overflow: hidden;
+    -webkit-transition: height 0.3s, margin-top 0.3s;
+    -moz-transition: height 0.3s, margin-top 0.3s;
+    -o-transition: height 0.3s, margin-top 0.3s;
+    transition: height 0.3s, margin-top 0.3s;
+    &:hover{
+    	height: r(216);
+    	margin-top: r(-108);
+    };
+}
+.logo{
+	height: r(310);
+	overflow: hidden;
+	img{
+		width: r(140);
+		height: r(108);
+		display: block;
+	}
+	h3{
+		text-align: center;
+		font-size: r(22);
+		line-height: r(40);
+		color: #000;
+	}
+}
+.nav{
+	display: block;
+	height: r(63);
+	font-size: r(16);
+	line-height: r(30);
+	li{
+		float: left;
+		width: 25%;
+		text-align: center;
+	}
+	a{
+		display: inline-block;
+		padding: r(30) r(1) 0 r(1); 
+		margin: 0 auto;
+		color: #333;
+		background-repeat: no-repeat;
+		background-image: url(../image/ico_bind.png);
+		background-size: r(48) r(160);
+		background-position: center r(-72);
+		font-weight: bold;
+	    -webkit-transition: border-bottom 0.3s, font-size 0.3s;
+	    -moz-transition: border-bottom 0.3s, font-size 0.3s;
+	    -o-transition: border-bottom 0.3s, font-size 0.3s;
+	    transition: border-bottom 0.3s, font-size 0.3s;
+		border-bottom: r(3) solid #fff;
+	    cursor: pointer;
+		&:hover{
+			font-size: r(18);
+			color: #333;
+			background-position: center r(-132);
+			border-bottom: r(3) solid #000;
+
+		}
+		&.on{
+			font-size: r(16);
+			color: #797979;
+			background-position: center r(-132);
+			border-bottom: r(3) solid #000;
+		}
+	}
+}
